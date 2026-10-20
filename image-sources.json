@@ -1,0 +1,98 @@
+[
+  {
+    "file": "assets/service-color.jpg",
+    "photographer": "Lera Kogan",
+    "source_page": "https://unsplash.com/photos/woman-in-white-shirt-with-blonde-hair-CIrRI0ujiRo",
+    "image_url": "https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "رنگ و تناژ مو",
+    "sha256": "32921c118be21d52e165b9cab9dcebd6b76cd27306f18ff8d250bb029b476e95",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/service-brow.jpg",
+    "photographer": "Rosalie Gdy",
+    "source_page": "https://unsplash.com/photos/woman-receiving-eyebrow-threading-treatment-cEKD2nZu4f0",
+    "image_url": "https://images.unsplash.com/photo-1790244342917-b08f24662dde?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "اصلاح و ابرو",
+    "sha256": "41ed6cbb03a9210162ee91bc1513cf3cf30911bf93aaadd2cb0f4d226643e707",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/service-cut.jpg",
+    "photographer": "Lindsay Cash",
+    "source_page": "https://unsplash.com/photos/a-woman-getting-her-hair-cut-by-a-hair-stylist-Md_DhaFsnCQ",
+    "image_url": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "کوتاهی مو",
+    "sha256": "fc6398d6b6ced1caa38932a3ca71fd71ae09c6dc5edd02cb36b4a33caeb548d5",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/salon-interior.jpg",
+    "photographer": "Benyamin Bohlouli",
+    "source_page": "https://unsplash.com/photos/modern-hair-salon-with-black-chairs-LGXN4OSQSa4",
+    "image_url": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "فضای سالن",
+    "sha256": "976ec0b7439d006a684db73c2e35282d2b78fa7f288724a4f5caf8a5c3335254",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/service-styling.jpg",
+    "photographer": "Adam Winger",
+    "source_page": "https://unsplash.com/photos/hairstylist-blow-drying-client-hair-FkAZqQJTbXM",
+    "image_url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "حالت‌دهی مو",
+    "sha256": "503260a9dc0273cb4cbd990074abd8e0f18abc44413d0705441e815ff36ef656",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/service-makeup.jpg",
+    "photographer": "Shamblen Studios",
+    "source_page": "https://unsplash.com/photos/pink-and-brown-makeup-brush-set-xwM61TPMlYk",
+    "image_url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "آرایش",
+    "sha256": "c0c7adeaff851c8166b394f7d83e297d59d21467add8a3c59bbbc7a84731e5ad",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/consultation.jpg",
+    "photographer": "Rosa Rafael",
+    "source_page": "https://unsplash.com/photos/woman-receiving-facial-mask-treatment-at-spa-Pe9IXUuC6QU",
+    "image_url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "مراقبت و مشاوره",
+    "sha256": "a567770b5aa7450d851417614507035cbefd532b55c4d56798f5ad0845e45855",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  },
+  {
+    "file": "assets/beauty-detail.jpg",
+    "photographer": "Kamila Maciejewska",
+    "source_page": "https://unsplash.com/photos/portrait-of-woman-face-b2bXKspL5MY",
+    "image_url": "https://images.unsplash.com/photo-1551184451-76b762941ad6?w=1200&q=85&fit=crop&fm=jpg",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "checked_on": "2026-10-20",
+    "section": "جزئیات چهره",
+    "sha256": "3c397409e1c96ed330455c0d151ea2b6da36f7a910617447e75473164601f066",
+    "usage": "Illustrative stock photo, not actual salon, staff, client, or endorsement"
+  }
+]
