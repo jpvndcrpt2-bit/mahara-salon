@@ -26,3 +26,14 @@ async function pull(list,label){const total=list.reduce((a,x)=>a+x[1],0);let got
 async function warm(){try{await pull([['models/face_landmarker.task',3758596],['mp/wasm/vision_wasm_internal.wasm',9423986]],'آماده‌سازی هوش مصنوعی آرایش…');say('آماده‌سازی هوش مصنوعی آرایش…');await ensureFace();say('هوش مصنوعی آرایش آماده است ✓');if(navigator.connection&&navigator.connection.saveData)return;await pull([['models/selfie_multiclass_256x256.tflite',16371837]],'آماده‌سازی رنگ مو…');await startHairEngine();say('هوش مصنوعی آرایش و رنگ مو آماده است ✓')}catch(e){console.warn('AI warm-up skipped',e);say('')}}
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 addEventListener('load',()=>setTimeout(warm,600))})();
+
+/* Hair-style preview on the sample models: each model has pre-made photos per style (assets/hair). */
+const HAIR_CODE={'موج‌دار بلند':'long-wave','باب کوتاه':'bob','لایه‌ای':'layered','پیکسی':'pixie','شینیون':'updo'};
+const HAIR_NATIVE={soft:'bob',evening:'updo',bridal:'long-wave'};
+let curModel=null;
+const modelOf=src=>(src.match(/look-(\w+)\.jpg/)||[])[1]||null;
+function hairSrc(m,code){return HAIR_NATIVE[m]===code?`assets/look-${m}.jpg`:`assets/hair/hair-${m}-${code}.jpg`}
+$('#modelPicks').addEventListener('click',e=>{const b=e.target.closest('.model-pick');if(!b)return;curModel=modelOf(b.dataset.src);const nat=HAIR_NATIVE[curModel];if(nat){const name=Object.keys(HAIR_CODE).find(k=>HAIR_CODE[k]===nat);state.hairStyle=name;$$('#hairStyles button').forEach(x=>x.classList.toggle('selected',x.textContent===name));updateLookSummary()}},true);
+$('#photoInput').addEventListener('change',()=>{curModel=null},true);
+$('#clearPhoto').addEventListener('click',()=>{curModel=null});
+$('#hairStyles').addEventListener('click',e=>{if(e.target.tagName!=='BUTTON')return;const code=HAIR_CODE[e.target.textContent];if(!code)return;if(!curModel){if(photo)toast('هنگامی که عکس خودتان انتخاب شده، تغییر مدل مو فقط در کارت مشاوره ثبت می‌شود.');return}const src=hairSrc(curModel,code);openPhoto(src)});
